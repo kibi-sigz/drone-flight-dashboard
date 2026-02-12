@@ -62,7 +62,9 @@ drone-flight-dashboard/
 
 ## 📸 Screenshots
 
-*(Add a few screenshots after deployment)*
+<img width="934" height="413" alt="Screenshot 2026-02-12 174624" src="https://github.com/user-attachments/assets/0510c6de-a1cf-4157-a159-fdca71b905b5" />
+
+<img width="940" height="416" alt="Screenshot 2026-02-12 174748" src="https://github.com/user-attachments/assets/c75c4afb-d554-42df-9c09-3aebeb2ed66a" />
 
 ---
 
