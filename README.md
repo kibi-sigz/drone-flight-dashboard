@@ -42,12 +42,19 @@ Built with vanilla HTML, CSS, and JavaScript – no frameworks.
 
 drone-flight-dashboard/
 ├── index.html
+
 ├── css/
+
 │ └── style.css
+
 ├── js/
+
 │ └── main.js
+
 ├── data/
+
 │ └── flights.json
+
 └── README.md
 
 
