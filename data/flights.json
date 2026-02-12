@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "date": "2026-02-10",
+    "drone": "Mavic 3",
+    "duration": 25,
+    "status": "completed"
+  },
+  {
+    "id": 2,
+    "date": "2026-02-11",
+    "drone": "Phantom 4",
+    "duration": 42,
+    "status": "in-air"
+  },
+  {
+    "id": 3,
+    "date": "2026-02-09",
+    "drone": "Inspire 2",
+    "duration": 18,
+    "status": "completed"
+  },
+  {
+    "id": 4,
+    "date": "2026-02-12",
+    "drone": "Matrice 300",
+    "duration": 60,
+    "status": "scheduled"
+  },
+  {
+    "id": 5,
+    "date": "2026-02-08",
+    "drone": "Mavic 3",
+    "duration": 33,
+    "status": "completed"
+  },
+  {
+    "id": 6,
+    "date": "2026-02-13",
+    "drone": "Phantom 4",
+    "duration": 27,
+    "status": "scheduled"
+  }
+]
