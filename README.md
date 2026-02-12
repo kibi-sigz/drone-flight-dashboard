@@ -3,7 +3,7 @@
 A fully responsive, interactive single‑page application for logging and monitoring drone flights.  
 Built with vanilla HTML, CSS, and JavaScript – no frameworks.
 
-🔗 **Live Demo:** [https://yourusername.github.io/drone-flight-dashboard/](https://yourusername.github.io/drone-flight-dashboard/)
+🔗 **Live Demo:** [https://kibi-sigz.github.io/drone-flight-dashboard/](https://kibi-sigz.github.io/drone-flight-dashboard/)
 
 ---
 
