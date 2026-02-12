@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5">
+    <title>Drone Flight Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">✈️ DroneLogger</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#dashboard" class="nav-link active" data-page="dashboard">Dashboard</a></li>
+                <li><a href="#flights" class="nav-link" data-page="flights">Flights</a></li>
+                <li><a href="#add" class="nav-link" data-page="add">Add Flight</a></li>
+                <li><a href="#about" class="nav-link" data-page="about">About</a></li>
+                <li><a href="#settings" class="nav-link" data-page="settings">Settings</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">☰</div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- DASHBOARD -->
+        <section id="dashboard" class="page active">
+            <h1>Dashboard</h1>
+            <div class="stats-grid" id="statsGrid"></div>
+            <h2>Recent Flights</h2>
+            <div id="recentFlightsList" class="flight-list"></div>
+        </section>
+
+        <!-- FLIGHTS -->
+        <section id="flights" class="page">
+            <h1>All Flights</h1>
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="completed">Completed</button>
+                <button class="filter-btn" data-filter="scheduled">Scheduled</button>
+                <button class="filter-btn" data-filter="in-air">In Air</button>
+            </div>
+            <div id="flightsList" class="flight-list"></div>
+        </section>
+
+        <!-- ADD FLIGHT -->
+        <section id="add" class="page">
+            <div class="form-card">
+                <h2>Log New Flight</h2>
+                <form id="addFlightForm">
+                    <div class="form-group">
+                        <label for="drone">Drone Model</label>
+                        <select id="drone" required>
+                            <option value="">-- Select --</option>
+                            <option value="Mavic 3">Mavic 3</option>
+                            <option value="Phantom 4">Phantom 4</option>
+                            <option value="Inspire 2">Inspire 2</option>
+                            <option value="Matrice 300">Matrice 300</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Flight Date</label>
+                        <input type="date" id="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="duration">Duration (minutes)</label>
+                        <input type="number" id="duration" min="1" step="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="status">Status</label>
+                        <select id="status">
+                            <option value="completed">Completed</option>
+                            <option value="scheduled">Scheduled</option>
+                            <option value="in-air">In Air</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn">Add Flight</button>
+                    <p id="formFeedback"></p>
+                </form>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="page">
+            <h1>About DroneLogger</h1>
+            <div class="about-content">
+                <p>This dashboard was built as a university project to demonstrate modern front‑end development skills.</p>
+                <h3>Technologies used</h3>
+                <ul>
+                    <li>HTML5 Semantic Elements</li>
+                    <li>CSS3 (Variables, Grid, Flexbox, Media Queries)</li>
+                    <li>JavaScript ES6+ (async/await, modules)</li>
+                    <li>Local JSON data loading with fetch</li>
+                    <li>Dark mode with localStorage</li>
+                    <li>100% responsive</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- SETTINGS -->
+        <section id="settings" class="page">
+            <h1>Settings</h1>
+            <div class="settings-card">
+                <div class="setting-item">
+                    <span>🌙 Dark Mode</span>
+                    <label class="switch">
+                        <input type="checkbox" id="darkModeToggle">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <p class="setting-note">Your preference is saved automatically.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 DroneLogger – Complete Website Example</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
