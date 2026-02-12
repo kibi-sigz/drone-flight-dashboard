@@ -68,8 +68,8 @@ drone-flight-dashboard/
 
 ## 📬 Contact
 
-Your Name – [your.email@example.com](mailto:your.email@example.com)  
-GitHub: [@yourusername](https://github.com/yourusername)
+Your Name – [your.email@example.com](mailto:ndomelebuhilya10@gmail.com)  
+GitHub: [@yourusername](https://github.com/kibi-sigz)
 
 ---
 
